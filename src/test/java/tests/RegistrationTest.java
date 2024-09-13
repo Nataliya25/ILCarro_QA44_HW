@@ -16,7 +16,7 @@ public class RegistrationTest extends AplicationManager {
         Assert.assertTrue(
         new HomePage(getDriver())
                 .clickBtnRegistration()
-                .typeRegistrationForm("Nata", "Bez", "bnatali144@gmail.com", "Anna124!!")
+                .typeRegistrationForm("Nata", "Bez", email, "Anna124!!")
                 .clickCheckBox()
                 .clickBtnYalla()
                 .IsTextInElementPresent_regSuccess());
