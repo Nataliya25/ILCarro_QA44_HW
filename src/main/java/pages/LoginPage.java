@@ -27,6 +27,9 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//h2[@class='message']")
     WebElement textPopUp_LoginSuccess;
 
+    @FindBy(xpath = "//h1[@class='title']")
+    WebElement textPopUp_LoginFailed;
+
     public LoginPage typeLoginForm (String email, String password){
         inputEmail.sendKeys(email);
         inputPassword.sendKeys(password);
@@ -40,5 +43,9 @@ public class LoginPage extends BasePage {
     }
     public boolean isTextInElementPresent_LoginSuccess(){
         return isTextInElementPresent(textPopUp_LoginSuccess, "Logged in success");
+    }
+
+    public boolean isTextInElementPresent_LoginFailed(){
+        return isTextInElementPresent(textPopUp_LoginFailed, "Login failed");
     }
 }

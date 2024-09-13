@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c99d38d6-1858-4e69-a13b-ed650d31ccc2" name="Changes" comment="HW_4_Project_POM_ILCarro" />
+    <list default="true" id="c99d38d6-1858-4e69-a13b-ed650d31ccc2" name="Changes" comment="Registr_test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.HomeTests.firstTest.executor": "Run",
+    "TestNG.LoginTest.loginNegativeTest_wrongEmail.executor": "Run",
     "TestNG.LoginTest.loginPositiveTest.executor": "Run",
     "TestNG.RegistrationTest.registrationPositiveTest.executor": "Run",
     "git-widget-placeholder": "main",
@@ -55,7 +60,7 @@
     "last_opened_file_path": "C:/Users/User/Documents/GitHub/Phone_Book"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.RegistrationTest.registrationPositiveTest">
+  <component name="RunManager" selected="TestNG.LoginTest.loginNegativeTest_wrongEmail">
     <configuration name="HomeTests.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ILCarro_QA44_HW" />
       <extension name="coverage">
@@ -67,6 +72,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
       <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginNegativeTest_wrongEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ILCarro_QA44_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginNegativeTest_wrongEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.loginNegativeTest_wrongEmail" />
         <item itemvalue="TestNG.RegistrationTest.registrationPositiveTest" />
         <item itemvalue="TestNG.LoginTest.loginPositiveTest" />
         <item itemvalue="TestNG.HomeTests.firstTest" />
@@ -143,11 +167,20 @@
       <option name="project" value="LOCAL" />
       <updated>1726216489264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Registr_test">
+      <option name="closed" value="true" />
+      <created>1726219217575</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726219217575</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW_4_Project_POM_ILCarro" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_4_Project_POM_ILCarro" />
+    <MESSAGE value="Registr_test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registr_test" />
   </component>
 </project>
