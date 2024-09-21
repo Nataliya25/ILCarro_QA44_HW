@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99d38d6-1858-4e69-a13b-ed650d31ccc2" name="Changes" comment="created emun class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/AutoDTOLombok.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LetTheCarWorkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LetTheCarWorkPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
     "TestNG.RegistrationTest.registrationPositiveTest.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/Documents/GitHub/ILCarro_QA44_HW"
+    "last_opened_file_path": "C:/Users/User/Documents/GitHub/Phone_Book"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,7 +69,7 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeTests.firstTest">
+  <component name="RunManager" selected="TestNG.LoginTest.loginNegativeTest_wrongEmailWOAt">
     <configuration name="HomeTests.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ILCarro_QA44_HW" />
       <extension name="coverage">
@@ -159,9 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomeTests.firstTest" />
-        <item itemvalue="TestNG.LoginTest.loginNegativeTest_wrongEmailWOAt_Enum" />
         <item itemvalue="TestNG.LoginTest.loginNegativeTest_wrongEmailWOAt" />
+        <item itemvalue="TestNG.LoginTest.loginNegativeTest_wrongEmailWOAt_Enum" />
+        <item itemvalue="TestNG.HomeTests.firstTest" />
         <item itemvalue="TestNG.LoginTest.loginNegativeTest_wrongEmail" />
         <item itemvalue="TestNG.RegistrationTest.registrationPositiveTest" />
       </list>
@@ -224,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726904995242</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created emun class">
+      <option name="closed" value="true" />
+      <created>1726905442762</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726905442762</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
