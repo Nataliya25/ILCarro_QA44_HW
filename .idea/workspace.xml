@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99d38d6-1858-4e69-a13b-ed650d31ccc2" name="Changes" comment="created negative test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LetTheCarWorkPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TermsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HeaderMenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/RandomUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +61,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.HomeTests.firstTest.executor": "Run",
     "TestNG.LoginTest.loginNegativeTest_wrongEmail.executor": "Run",
+    "TestNG.LoginTest.loginNegativeTest_wrongEmailWOAt.executor": "Run",
+    "TestNG.LoginTest.loginNegativeTest_wrongEmailWOAt_Enum.executor": "Run",
     "TestNG.LoginTest.loginPositiveTest.executor": "Run",
     "TestNG.RegistrationTest.registrationPositiveTest.executor": "Run",
     "git-widget-placeholder": "main",
@@ -58,25 +70,12 @@
     "last_opened_file_path": "C:/Users/User/Documents/GitHub/ILCarro_QA44_HW"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginNegativeTest_wrongEmail">
-    <configuration name="HomeTests.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ILCarro_QA44_HW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTest.loginNegativeTest_wrongEmailWOAt_Enum">
     <configuration name="LoginTest.loginNegativeTest_wrongEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ILCarro_QA44_HW" />
       <extension name="coverage">
@@ -88,6 +87,42 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
       <option name="METHOD_NAME" value="loginNegativeTest_wrongEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginNegativeTest_wrongEmailWOAt" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ILCarro_QA44_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginNegativeTest_wrongEmailWOAt" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginNegativeTest_wrongEmailWOAt_Enum" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ILCarro_QA44_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginNegativeTest_wrongEmailWOAt_Enum" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,10 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.loginNegativeTest_wrongEmailWOAt_Enum" />
+        <item itemvalue="TestNG.LoginTest.loginNegativeTest_wrongEmailWOAt" />
         <item itemvalue="TestNG.LoginTest.loginNegativeTest_wrongEmail" />
         <item itemvalue="TestNG.RegistrationTest.registrationPositiveTest" />
         <item itemvalue="TestNG.LoginTest.loginPositiveTest" />
-        <item itemvalue="TestNG.HomeTests.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726236058242</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created negative test">
+      <option name="closed" value="true" />
+      <created>1726556584276</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726556584276</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
