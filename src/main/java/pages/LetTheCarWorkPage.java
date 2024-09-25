@@ -2,6 +2,7 @@ package pages;
 
 import dto.AutoDTOLombok;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -33,24 +34,28 @@ public class LetTheCarWorkPage extends BasePage {
     @FindBy(id = "seats")
     WebElement inputSeats;
     @FindBy(id = "class")
-    WebElement inputClass;
+    WebElement inputCarClass;
     @FindBy(id = "serialNumber")
-    WebElement inputRegNum;
+    WebElement inputSerialNumber;
     @FindBy(id = "price")
     WebElement inputPrice;
+    @FindBy(id = "about")
+    WebElement inputAbout;
 
-    public LetTheCarWorkPage fillAutoInform(AutoDTOLombok auto) {
+    public void typeAddNewCarForm(AutoDTOLombok auto) {
 
-        inputLocation.sendKeys(auto.ge);
-        inputManufacture.sendKeys(auto.get());
-        inputModel.sendKeys(auto.);
-        inputYear.sendKeys(auto.);
-        inputFuel.sendKeys(auto.);
+        inputLocation.sendKeys(auto.getCity());
+        inputManufacture.sendKeys(auto.getManufacture());
+        inputModel.sendKeys(auto.getModel());
+        inputYear.sendKeys(auto.getYear());
+        inputFuel.sendKeys(auto.getFuel());
         inputSeats.sendKeys(auto.);
         inputClass.sendKeys(auto.);
         inputRegNum.sendKeys(auto.);
         inputPrice.sendKeys(auto.);
-        return this;
+
+        pause(2);
+        driver.findElement(By.xpath("//div[@class='pac-item']")).click();
     }
 }
 

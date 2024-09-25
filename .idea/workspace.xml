@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c99d38d6-1858-4e69-a13b-ed650d31ccc2" name="Changes" comment="created emun class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/AutoDTOLombok.java" afterDir="false" />
+    <list default="true" id="c99d38d6-1858-4e69-a13b-ed650d31ccc2" name="Changes" comment="starting to create method for adding car">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddNewCarTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/AutoDTOLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/AutoDTOLombok.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LetTheCarWorkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LetTheCarWorkPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
     "TestNG.RegistrationTest.registrationPositiveTest.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/Documents/GitHub/Phone_Book"
+    "last_opened_file_path": "C:/Users/User/Documents/GitHub/ILCarro_QA44_HW"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -235,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726905442762</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="starting to create method for adding car">
+      <option name="closed" value="true" />
+      <created>1726924621322</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726924621322</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +251,7 @@
     <MESSAGE value="Registr_test" />
     <MESSAGE value="created negative test" />
     <MESSAGE value="created emun class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created emun class" />
+    <MESSAGE value="starting to create method for adding car" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting to create method for adding car" />
   </component>
 </project>

@@ -1,25 +1,23 @@
 package dto;
 import lombok.*;
+@Getter
+@Setter
+@Builder
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
+
 public class AutoDTOLombok {
 
-
-    @Getter
-    @Setter
-    @Builder
-    @ToString
-    @NoArgsConstructor
-    @AllArgsConstructor
-
-    public class autoDTOLombok {
-
-        private String address;
+        private String serialNumber;
         private String manufacture;
         private String model;
         private String year;
         private String fuel;
-        private String seats;
-        private String clas;
-        private String registrNumber;
-        private String price;
+        private int seats;
+        private String carClass;
+        private double pricePerDay;
+        private String about;
+        private String city; //location
     }
-}
+
