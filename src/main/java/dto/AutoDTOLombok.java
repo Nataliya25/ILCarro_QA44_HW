@@ -19,5 +19,6 @@ public class AutoDTOLombok {
         private double pricePerDay;
         private String about;
         private String city; //location
+        private String image;
     }
 

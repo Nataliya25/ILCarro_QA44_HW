@@ -11,6 +11,7 @@ import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
 import java.time.Duration;
 
 public class LetTheCarWorkPage extends BasePage {
@@ -41,24 +42,45 @@ public class LetTheCarWorkPage extends BasePage {
     WebElement inputPrice;
     @FindBy(id = "about")
     WebElement inputAbout;
+    @FindBy(id = "photos")
+    WebElement inputPhoto;
+    @FindBy(xpath = "//button[@type='submit']")
+    WebElement btnSubmit;
 
-    public void typeAddNewCarForm(AutoDTOLombok auto) {
+    @FindBy(xpath = "//div[@class='dialog-container']/h2")
+    WebElement messageSuccessAddCar;
 
-        inputLocation.sendKeys(auto.getCity());
-        inputManufacture.sendKeys(auto.getManufacture());
-        inputModel.sendKeys(auto.getModel());
-        inputYear.sendKeys(auto.getYear());
-        inputFuel.sendKeys(auto.getFuel());
-        inputSeats.sendKeys(auto.);
-        inputClass.sendKeys(auto.);
-        inputRegNum.sendKeys(auto.);
-        inputPrice.sendKeys(auto.);
-
-        pause(2);
-        driver.findElement(By.xpath("//div[@class='pac-item']")).click();
+    public void typeAddNewCarForm(AutoDTOLombok car) {
+        inputLocation.sendKeys(car.getCity());
+        //pause(2);
+        //driver.findElement(By.xpath("//div[@class='pac-item']")).click();
+        clickWait(By.xpath("//div[@class='pac-item']"), 10);
+        inputManufacture.sendKeys(car.getManufacture());
+        inputModel.sendKeys(car.getModel());
+        inputYear.sendKeys(car.getYear());
+        //-----------------------------
+        inputFuel.click();
+        clickWait(By.xpath(car.getFuel()), 3);
+        //-----------------------------
+        inputSeats.sendKeys(car.getSeats()+"");
+        inputCarClass.sendKeys(car.getCarClass());
+        inputSerialNumber.sendKeys(car.getSerialNumber());
+        inputPrice.sendKeys(Double.toString(car.getPricePerDay()));
+        inputAbout.sendKeys(car.getAbout());
+        //-----------------------------
+        File file = new File("src/test/resources/"+car.getImage());
+        //System.out.println(file.getAbsolutePath());
+        inputPhoto.sendKeys(file.getAbsolutePath());
     }
-}
 
+    public void clickBtnSubmit(){
+        clickWait(btnSubmit, 3);
+    }
+    public boolean validatePopUpMessage(String text){
+        return isTextInElementPresent(messageSuccessAddCar, text);
+    }
+
+}
 
 
 

@@ -47,8 +47,9 @@ public class LoginPage extends BasePage {
     }
 
     public LoginPage clickBtnYalla() {
-        pause(5);
-        btnYalla.click();
+       // pause(5);
+       // btnYalla.click();
+        clickWait(btnYalla, 3);
         return this;
     }
     public boolean isTextInElementPresent_LoginSuccess(){
